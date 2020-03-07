@@ -1,5 +1,6 @@
 import React from 'react';
-import { Screens } from 'src/Screens';
+// fixme: enable absolute imports at runtime
+import { Screens } from './Screens';
 
 const App = () => {
   return (
