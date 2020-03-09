@@ -1,17 +1,18 @@
 # Setup
 https://reactnative.dev/docs/getting-started
 
-Install `node` and `watchman` using `brew`
+Install `node`, `yarn`, and `watchman` using `brew`
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 
 brew install node
+brew install yarn
 brew install watchman
 ```
 
 Get TypeScript
 ```
-npm install -g typescript
+yarn global add typescript
 ```
 
 ## iOS
@@ -61,7 +62,7 @@ source ~/.bash_profile
 ## Almost there
 ```
 git clone https://github.com/reline/tsx && cd tsx
-npm install
+yarn install
 
 npx react-native {run-ios} {run-android}
 ```
